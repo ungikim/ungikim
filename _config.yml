@@ -1,0 +1,6 @@
+---
+repository: ungikim/ungikim
+permalink: /archives/:short_year-:short_month-:day-:title.html
+sass:
+    sass_dir: _sass
+    style: compressed

@@ -1,0 +1,139 @@
+---
+---
+@import "tachyons";
+@font-face{
+    font-family: 'JetBrains Mono';
+    src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-font-feature-settings: "liga" on, "calt" on;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e2e8f0;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-font-smoothing: auto;
+    --color-primary-400: #6BD5B8;
+    --color-primary-500: #389C80;
+    --color-neutral-100: #242628;
+    --color-neutral-200: #323232;
+    --color-neutral-300: #434343;
+    --color-neutral-400: #656565;
+    --color-neutral-500: #707070;
+    --color-neutral-600: #9B9B9B;
+    --color-neutral-700: #C6C6C6;
+    --color-neutral-800: #DBDBDB;
+    --color-neutral-900: #f5f5f5;
+    --bg-level-0: #efefef;
+    --bg-level-1: #f5f5f5;
+    --bg-level-2: #fafafa;
+    --text-level-0: #242628;
+    --text-level-1: #323232;
+    --text-level-2: #434343;
+    --input-bg-color: #fafafa;
+}
+
+body {
+    background-color: var(--bg-level-0);
+    color: var(--text-level-0);
+    min-height: 100vh;
+}
+
+section#layout {
+    font-size: 1rem;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+main#content {
+    position: relative;
+    font-family: "JetBrains Mono", "Courier New", Courier, monospace;
+    color: var(--color-neutral-200);
+    padding-bottom: 4rem;
+    max-width: 768px;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        position: relative;
+        color: var(--color-neutral-100);
+        &:before {
+            content: "#";
+            position: absolute;
+            top: 0;
+            left: -1.2em;
+            opacity: 0.15;
+            font-weight: normal;
+        }
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 0.75rem;
+    }
+    ul, ol {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        padding-left: 1.6em;
+    }
+    ul {
+        list-style-type: disc;
+    }
+    ol {
+        counter-reset: item;
+    }
+    blockquote {
+        position: relative;
+    }
+    blockquote::before {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        top: 0;
+        left: -0.8em;
+        border-left-width: 3px;
+        border-color: var(--color-neutral-700);
+    }
+    a {
+        color: var(--color-primary-500);
+        cursor: pointer;
+        transition-property: background-color, border-color, color, fill, stroke;
+        transition-duration: 100ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover {
+            color: var(--color-primary-500);
+            text-decoration: underline;
+        }
+    }
+    p {
+        line-height: 1.5rem;
+    }
+}

@@ -1,0 +1,23 @@
+---
+layout: compress
+---
+{% capture base_url %}{% if site.github.pages_env == "development" %}http://{{ site.github.pages_hostname }}{% else %}{{ site.github.url }}{% endif %}{% endcapture %}
+{% capture author %}{{ site.github.owner.login }} ({{ site.github.owner.name }}){% endcapture %}
+{% capture description %}{{ site.github.project_tagline }} - {{ site.github.repository_nwo }}{% endcapture %}
+{% capture canonical_url %}{{ base_url }}{{ page.url | downcase }}{% endcapture %}
+{% capture repository_url %}{{ site.github.repository_url }}{% endcapture %}
+{% capture inception_year %}{% assign tmp_created_at = site.github.owner.created_at | split: "-" %}{{ tmp_created_at[0] }}{% endcapture %}
+{% assign posts = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% capture title %}{% if page.url != "/" %}{{ page.title }} — {% endif %}{{ author }}{% endcapture %}
+{%
+    include layout.html
+    title=title
+    author=author
+    description=description
+    base_url=base_url
+    canonical_url=canonical_url
+    repository_url=repository_url
+    inception_year=inception_year
+    content=content
+    posts=posts
+%}
