@@ -4,9 +4,9 @@ I'm a [software engineer](https://github.com/ungikim) at [LINE](https://linecorp
 
 [ungi@ungikim.me](mailto:ungi@ungikim.me) or [+82 10-9922-1318](sms:821099221318)
 
-# I have experienced in
+# I have experienced
 
-## **Software Engineer** at [LINE](https://linecorp.com/ja/), Feb 2020 -
+## **Software Engineer** at [LINE](https://linecorp.com/ja/), Feb 2020 - Mar 2022
 
 _Tokyo, Japan - Developing [LINE GAME PLATFORM](https://developers.game.line.me/)._
 
@@ -21,14 +21,14 @@ _Seoul, Korea - India-based South Korean fin-tech startup._
 * Designed and developed the whole big data pipeline with batch processing
 * Developed PySpark application for aggregation that easily used by analyst and developer
 * Designed and developed the [Kinesis Data Stream consumer](https://github.com/ungikim/kinsumer)
-* Developed a [Apache Zeppelin Interpreter for Amazon Athena](https://github.com/ungikim/zeppelin-athena-interpreter)
-* Written queries to transform data for further downstream processing
+* Developed the [Apache Zeppelin Interpreter for Amazon Athena](https://github.com/ungikim/zeppelin-athena-interpreter)
+* Wrote queries to transform data for further downstream processing
 
 ## **Software Engineer** at [Balance Hero](https://truebalance.io), May 2016 – Feb 2017
 
 _Seoul, Korea - Developing [True Balance](https://play.google.com/store/apps/details?id=com.balancehero.truebalance)._
 
-* Designed and developed the event based promotion service and the user service
+* Designed and developed the event driven promotion service and the user service
 
 ## **Intern** at [Netmarble Games](https://company.netmarble.com/), Dec 2015 – Feb 2016
 
@@ -36,7 +36,7 @@ _Seoul, Korea - Internship as part of the Netmarble recruitment 2016._
 
 ## **Software Engineer** at [Saerom C&C](http://www.saeromcnc.com/), April 2010 – Feb 2013
 
-_Seoul, Korea - Worked as a substitute of mandatory military service._
+_Seoul, Korea - Alternative service._
 
 * Developed websites overseas e-commerce service [GEOPASS](https://www.geopass.com/) and [eBay Auction](https://ebay.auction.co.kr/)
 
