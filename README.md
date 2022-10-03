@@ -18,6 +18,7 @@ _Seoul, Korea - Developing [LINE GAME PLATFORM](https://developers.game.line.me/
 
 _Tokyo, Japan - Developing [LINE GAME PLATFORM](https://developers.game.line.me/)._
 
+* Developed and maintained LINE GAME PLATFORM, as part of a team.
 * Designed and improved token system to support various platforms
 * Improved in-house library for using various storage that provides shared infrastructure across internal projects
 * Developed subscription payment system for game developers
