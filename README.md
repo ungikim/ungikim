@@ -6,7 +6,7 @@ I'm a [software engineer](https://github.com/ungikim) at [LINE](https://linecorp
 
 # I have experienced
 
-## **Software Engineer** At [LINE Plus Corporation](https://linepluscorp.com/), Mar 2022 -
+## **Software Engineer** at [LINE Plus Corporation](https://linepluscorp.com/), Mar 2022 -
 
 _Seoul, Korea - Developing [LINE GAME PLATFORM](https://developers.game.line.me/)._
 
