@@ -10,9 +10,8 @@ I'm a [software engineer](https://github.com/ungikim) at [LINE](https://linecorp
 
 _Seoul, Korea - Developing [LINE GAME PLATFORM](https://developers.game.line.me/)._
 
+* Responsible for developing and enhancing core capabilities, understanding internal customer needs, and facilitating the organization's utilization of features.
 * Developed and maintained LINE GAME PLATFORM, as part of a team.
-* Desigined and built in-house library for internal use. 
-* Used Kubernetes to orchestrate the deployment, scaling and management of Containers.
 
 ## **Software Engineer** at [LINE Corporation](https://linecorp.com/ja/), Feb 2020 - Mar 2022
 
