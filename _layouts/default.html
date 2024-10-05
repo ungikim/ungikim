@@ -5,7 +5,6 @@ layout: compress
 {% capture author %}{{ site.github.owner.login }} ({{ site.github.owner.name }}){% endcapture %}
 {% capture description %}{{ site.github.project_tagline }} - {{ site.github.repository_nwo }}{% endcapture %}
 {% capture canonical_url %}{{ base_url }}{{ page.url | downcase }}{% endcapture %}
-{% assign posts = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 {% capture title %}{% if page.url != "/" %}{{ page.title }} — {% endif %}{{ author }}{% endcapture %}
 {%
     include layout.html
@@ -16,5 +15,5 @@ layout: compress
     canonical_url=canonical_url
     keywords="Ungi Kim, Ungi, ungikim, 김운기, 운기, ウンギ, 金雲起, UNGI KIMU"
     content=content
-    posts=posts
+    copyright="&copy; 2014-2024 Ungi Kim. All rights reserved."
 %}
