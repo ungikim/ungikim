@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html lang="en-KR">
-    <head>
-        <meta charset="utf-8" />
-        <title>{{ include.title }}</title>
-        <meta name="author" content="{{ include.author }}" />
-        <meta name="contact" content="{{ site.github.owner.email }}" />
-        <meta name="copyright" content="&copy; {{ site.github.owner.name }}" />
-        <meta name="description" content="{{ include.description }}" />
-        <meta name="keywords" content="{{ include.keywords }}" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="{{ include.canonical_url }}" />
-        <link rel="stylesheet" href="{{ include.base_url }}/assets/css/style.css" />
-        <meta property="og:title" content="{{ include.title }}" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="{{ include.base_url }}" />
-        <meta property="og:image" content="{{ include.base_url }}/assets/images/ungikim.png" />
-        <meta property="og:description" content="{{ include.description }}" />
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-WF4N9FM');</script>
-        <!-- End Google Tag Manager -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9RKHSKRQ36"></script>
-        <script>
+<head>
+    <meta charset="utf-8"/>
+    <title>{{ include.title }}</title>
+    <meta name="author" content="{{ include.author }}"/>
+    <meta name="contact" content="{{ site.github.owner.email }}"/>
+    <meta name="copyright" content="&copy; {{ site.github.owner.name }}"/>
+    <meta name="description" content="{{ include.description }}"/>
+    <meta name="keywords" content="{{ include.keywords }}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="canonical" href="{{ include.canonical_url }}"/>
+    <link rel="stylesheet" href="{{ include.base_url }}/assets/css/style.css"/>
+    <meta property="og:title" content="{{ include.title }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ include.base_url }}"/>
+    <meta property="og:image" content="{{ include.base_url }}/assets/images/ungikim.png"/>
+    <meta property="og:description" content="{{ include.description }}"/>
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WF4N9FM');</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9RKHSKRQ36"></script>
+    <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
         gtag('config', 'G-9RKHSKRQ36');
-        </script>
-    </head>
-    <body id="layout">
-        <main id="content">
-            {{ include.content }}
-            <footer>{{ include.copyright }}</footer>
-        </main>
-    </body>
+    </script>
+    <script async src="{{ include.base_url }}/assets/js/debug.js"></script>
+</head>
+<body>
+<label class="debug-toggle-label"><input type="checkbox" class="debug-toggle"/> Debug mode</label>
+{{ include.content }}
+<footer>{{ include.copyright }}</footer>
+</body>
 </html>
