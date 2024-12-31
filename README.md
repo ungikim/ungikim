@@ -51,7 +51,7 @@ _Seoul, Korea - Completed an internship as part of the Netmarble recruitment 201
 
 ### **Software Engineer** at [Saerom C&C](http://www.saeromcnc.com/), April 2010 – Feb 2013
 
-_Seoul, Korea - Provided alternative service._
+_Seoul, Korea - Alternative military service._
 
 * Developed websites for overseas e-commerce services, including [GEOPASS](https://www.geopass.com/)
   and [eBay Auction](https://ebay.auction.co.kr/)

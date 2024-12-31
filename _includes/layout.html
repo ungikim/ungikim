@@ -10,41 +10,42 @@
     <meta name="keywords" content="{{ include.keywords }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="canonical" href="{{ include.canonical_url }}"/>
-    <link rel="stylesheet" href="{{ include.base_url }}/assets/css/style.css"/>
+    <link rel="preload" href="{{ include.base_url }}/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ include.base_url }}/assets/css/style.css"></noscript>
     <meta property="og:title" content="{{ include.title }}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ include.base_url }}"/>
     <meta property="og:image" content="{{ include.base_url }}/assets/images/ungikim.png"/>
     <meta property="og:description" content="{{ include.description }}"/>
-    <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-WF4N9FM');</script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9RKHSKRQ36"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-        gtag('config', 'G-9RKHSKRQ36');
-    </script>
-    <script async src="{{ include.base_url }}/assets/js/debug.js"></script>
 </head>
 <body>
 <label class="debug-toggle-label"><input type="checkbox" class="debug-toggle"/> Debug mode</label>
 {{ include.content }}
 <footer>{{ include.copyright }}</footer>
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+        'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-WF4N9FM');</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9RKHSKRQ36"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-9RKHSKRQ36');
+</script>
+<script defer src="{{ include.base_url }}/assets/js/debug.js"></script>
 </body>
 </html>

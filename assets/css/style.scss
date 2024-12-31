@@ -3,6 +3,11 @@
 @import url('https://fonts.cdnfonts.com/css/jetbrains-mono-2');
 @import 'pure';
 
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-display: swap;
+}
+
 :root {
   --font-family: 'JetBrains Mono', monospace;
   --line-height: 1.20rem;
@@ -400,10 +405,6 @@ label input {
   repeating-linear-gradient(90deg, var(--color) 0 1px, transparent 1px 100%);
   background-size: 1ch var(--line-height);
   margin: 0;
-}
-
-.debug .off-grid {
-  background: rgba(255, 0, 0, 0.1);
 }
 
 .debug-toggle-label {
