@@ -25,7 +25,7 @@
   font-weight: var(--font-weight-normal);
   font-style: normal;
   font-variant-numeric: tabular-nums lining-nums;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,6 +54,7 @@ html {
   align-items: center;
   background: var(--background-color);
   color: var(--text-color);
+  font-size: 62.5%;
 }
 
 body {
@@ -64,6 +65,10 @@ body {
   max-width: calc(min(80ch, round(down, 100%, 1ch)));
   line-height: var(--line-height);
   overflow-x: hidden;
+}
+
+body > * {
+  line-height: var(--line-height);
 }
 
 @media screen and (max-width: 480px) {
@@ -122,6 +127,9 @@ a:link, a:visited {
 }
 
 p {
+  word-break: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
   margin-bottom: var(--line-height);
 }
 
@@ -143,57 +151,6 @@ sub {
   font-size: .75rem;
 }
 
-table {
-  position: relative;
-  top: calc(var(--line-height) / 2);
-  width: calc(round(down, 100%, 1ch));
-  border-collapse: collapse;
-  margin: 0 0 calc(var(--line-height) * 2);
-}
-
-th, td {
-  border: var(--border-thickness) solid var(--text-color);
-  padding: calc((var(--line-height) / 2)) calc(1ch - var(--border-thickness) / 2) calc((var(--line-height) / 2) - (var(--border-thickness)));
-  line-height: var(--line-height);
-  vertical-align: top;
-  text-align: left;
-}
-
-table tbody tr:first-child > * {
-  padding-top: calc((var(--line-height) / 2) - var(--border-thickness));
-}
-
-
-th {
-  font-weight: 700;
-}
-
-.width-min {
-  width: 0;
-}
-
-.width-auto {
-  width: 100%;
-}
-
-.header {
-  margin-bottom: calc(var(--line-height) * 2);
-}
-
-.header h1 {
-  margin: 0;
-}
-
-.header tr td:last-child {
-  text-align: right;
-}
-
-p {
-  word-break: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
-}
-
 img, video {
   display: block;
   width: 100%;
@@ -206,64 +163,12 @@ img {
   color: var(--text-color-alt);
 }
 
-details {
-  border: var(--border-thickness) solid var(--text-color);
-  padding: calc(var(--line-height) - var(--border-thickness)) 1ch;
-  margin-bottom: var(--line-height);
-}
-
-summary {
-  font-weight: var(--font-weight-medium);
-  cursor: pointer;
-}
-
-details[open] summary {
-  margin-bottom: var(--line-height);
-}
-
-details ::marker {
-  display: inline-block;
-  content: '▶';
-  margin: 0;
-}
-
-details[open] ::marker {
-  content: '▼';
-}
-
-details :last-child {
-  margin-bottom: 0;
-}
-
-pre {
-  white-space: pre;
-  overflow-x: auto;
-  margin: var(--line-height) 0;
-  overflow-y: hidden;
-}
-
-figure pre {
-  margin: 0;
-}
-
 pre, code {
   font-family: var(--font-family), monospace;
 }
 
 code {
   font-weight: var(--font-weight-medium);
-}
-
-figure {
-  margin: calc(var(--line-height) * 2) 3ch;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
-figcaption {
-  display: block;
-  font-style: italic;
-  margin-top: var(--line-height);
 }
 
 ul, ol {
