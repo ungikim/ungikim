@@ -10,8 +10,7 @@
     <meta name="keywords" content="{{ include.keywords }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="canonical" href="{{ include.canonical_url }}"/>
-    <link rel="preload" href="{{ include.base_url }}/assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="{{ include.base_url }}/assets/css/style.css"></noscript>
+    <link rel="stylesheet" href="{{ include.base_url }}/assets/css/style.css" />
     <meta property="og:title" content="{{ include.title }}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ include.base_url }}"/>
@@ -21,6 +20,7 @@
 <body>
 <label class="debug-toggle-label"><input type="checkbox" class="debug-toggle"/> Debug mode</label>
 {{ include.content }}
+<hr />
 <footer>{{ include.copyright }}</footer>
 <script>(function (w, d, s, l, i) {
     w[l] = w[l] || [];
