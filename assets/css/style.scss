@@ -25,7 +25,7 @@
   font-weight: var(--font-weight-normal);
   font-style: normal;
   font-variant-numeric: tabular-nums lining-nums;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,7 +42,7 @@
 }
 
 * + * {
-  margin-top: var(--line-height);
+  margin-top: calc(round(down, var(--line-height), 1px));
 }
 
 html {
@@ -54,16 +54,18 @@ html {
   align-items: center;
   background: var(--background-color);
   color: var(--text-color);
+  font-size: 62.5%;
 }
 
 body {
   position: relative;
   width: 100%;
   margin: 0;
-  padding: var(--line-height) 2ch;
+  padding: calc(round(down, var(--line-height), 1px)) 2ch;
   max-width: calc(min(80ch, round(down, 100%, 1ch)));
-  line-height: var(--line-height);
+  line-height: calc(round(down, var(--line-height), 1px));
   overflow-x: hidden;
+  text-wrap: balance;
 }
 
 @media screen and (max-width: 480px) {
@@ -71,20 +73,20 @@ body {
     font-size: 14px;
   }
   body {
-    padding: var(--line-height) 1ch;
+    padding: calc(round(down, var(--line-height), 1px)) 1ch;
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
-  margin: calc(var(--line-height) * 2) 0 var(--line-height);
-  line-height: var(--line-height);
+  margin: calc(round(down, var(--line-height), 1px) * 2) 0 calc(round(down, var(--line-height), 1px));
+  line-height: calc(round(down, var(--line-height), 1px));
 }
 
 h1 {
   font-size: 2rem;
-  line-height: calc(2 * var(--line-height));
-  margin-bottom: calc(var(--line-height) * 2);
+  line-height: calc(round(down, var(--line-height), 1px) * 2);
+  margin-bottom: calc(round(down, var(--line-height), 1px) * 2);
   text-transform: uppercase;
 }
 
@@ -96,8 +98,8 @@ h2 {
 hr {
   position: relative;
   display: block;
-  height: var(--line-height);
-  margin: calc(var(--line-height) * 1.5) 0;
+  height: calc(round(down, var(--line-height), 1px));
+  margin: calc(round(down, var(--line-height), 1px) * 1.5) 0;
   border: none;
   color: var(--text-color);
 }
@@ -106,7 +108,7 @@ hr:after {
   display: block;
   content: '';
   position: absolute;
-  top: calc(var(--line-height) / 2 - var(--border-thickness));
+  top: calc(calc(round(down, var(--line-height), 1px) * 0.5) - var(--border-thickness));
   left: 0;
   width: 100%;
   border-top: calc(var(--border-thickness) * 3) double var(--text-color);
@@ -122,7 +124,10 @@ a:link, a:visited {
 }
 
 p {
-  margin-bottom: var(--line-height);
+  word-break: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  margin-bottom: calc(round(down, var(--line-height), 1px));
 }
 
 strong {
@@ -143,57 +148,6 @@ sub {
   font-size: .75rem;
 }
 
-table {
-  position: relative;
-  top: calc(var(--line-height) / 2);
-  width: calc(round(down, 100%, 1ch));
-  border-collapse: collapse;
-  margin: 0 0 calc(var(--line-height) * 2);
-}
-
-th, td {
-  border: var(--border-thickness) solid var(--text-color);
-  padding: calc((var(--line-height) / 2)) calc(1ch - var(--border-thickness) / 2) calc((var(--line-height) / 2) - (var(--border-thickness)));
-  line-height: var(--line-height);
-  vertical-align: top;
-  text-align: left;
-}
-
-table tbody tr:first-child > * {
-  padding-top: calc((var(--line-height) / 2) - var(--border-thickness));
-}
-
-
-th {
-  font-weight: 700;
-}
-
-.width-min {
-  width: 0;
-}
-
-.width-auto {
-  width: 100%;
-}
-
-.header {
-  margin-bottom: calc(var(--line-height) * 2);
-}
-
-.header h1 {
-  margin: 0;
-}
-
-.header tr td:last-child {
-  text-align: right;
-}
-
-p {
-  word-break: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
-}
-
 img, video {
   display: block;
   width: 100%;
@@ -206,46 +160,6 @@ img {
   color: var(--text-color-alt);
 }
 
-details {
-  border: var(--border-thickness) solid var(--text-color);
-  padding: calc(var(--line-height) - var(--border-thickness)) 1ch;
-  margin-bottom: var(--line-height);
-}
-
-summary {
-  font-weight: var(--font-weight-medium);
-  cursor: pointer;
-}
-
-details[open] summary {
-  margin-bottom: var(--line-height);
-}
-
-details ::marker {
-  display: inline-block;
-  content: '▶';
-  margin: 0;
-}
-
-details[open] ::marker {
-  content: '▼';
-}
-
-details :last-child {
-  margin-bottom: 0;
-}
-
-pre {
-  white-space: pre;
-  overflow-x: auto;
-  margin: var(--line-height) 0;
-  overflow-y: hidden;
-}
-
-figure pre {
-  margin: 0;
-}
-
 pre, code {
   font-family: var(--font-family), monospace;
 }
@@ -254,21 +168,9 @@ code {
   font-weight: var(--font-weight-medium);
 }
 
-figure {
-  margin: calc(var(--line-height) * 2) 3ch;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
-figcaption {
-  display: block;
-  font-style: italic;
-  margin-top: var(--line-height);
-}
-
 ul, ol {
   padding: 0;
-  margin: 0 0 var(--line-height);
+  margin: 0 0 calc(round(down, var(--line-height), 1px));
 }
 
 ul {
@@ -311,10 +213,10 @@ li::marker {
 
 input, button, textarea {
   border: var(--border-thickness) solid var(--text-color);
-  padding: calc(var(--line-height) / 2 - var(--border-thickness)) calc(1ch - var(--border-thickness));
+  padding: calc(calc(round(down, var(--line-height), 1px) * 0.5) - var(--border-thickness)) calc(1ch - var(--border-thickness));
   margin: 0;
   font: inherit;
-  height: calc(var(--line-height) * 2);
+  height: calc(round(down, var(--line-height), 1px) * 2);
   width: auto;
   overflow: visible;
   background: var(--background-color);
@@ -330,14 +232,14 @@ input[type=checkbox] {
   place-content: center;
   vertical-align: top;
   width: 2ch;
-  height: var(--line-height);
+  height: calc(round(down, var(--line-height), 1px));
   cursor: pointer;
 }
 
 input[type=checkbox]:checked:before {
   content: '';
   width: 1ch;
-  height: calc(var(--line-height) / 2);
+  height: calc(round(down, var(--line-height), 1px) * 0.5);
   background: var(--text-color);
 }
 
@@ -381,8 +283,7 @@ button:active {
 label {
   display: block;
   width: calc(round(down, 100%, 1ch));
-  height: auto;
-  line-height: var(--line-height);
+  height: calc(round(down, var(--line-height), 1px));
   font-weight: var(--font-weight-medium);
   margin: 0;
 }
@@ -403,7 +304,7 @@ label input {
   z-index: -1;
   background-image: repeating-linear-gradient(var(--color) 0 1px, transparent 1px 100%),
   repeating-linear-gradient(90deg, var(--color) 0 1px, transparent 1px 100%);
-  background-size: 1ch var(--line-height);
+  background-size: 1ch calc(round(down, var(--line-height), 1px));
   margin: 0;
 }
 
