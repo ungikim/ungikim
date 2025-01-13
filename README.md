@@ -22,7 +22,7 @@ _Seoul, Korea - Working on the [LINE GAME PLATFORM](https://developers.game.line
   and monitoring.
 * Managed and monitored compliance with development processes across all products, acting as a representative for
   procedural changes.
-* Developed and enhanced core platform capabilities, understanding internal customer needs to maximize feature
+* Redesigned and optimized core platform capabilities, understanding internal customer needs to maximize feature
   utilization.
 
 ### **Software Engineer** at [LINE Corporation](https://linecorp.com/ja/), Feb 2020 - Mar 2022

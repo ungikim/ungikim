@@ -62,7 +62,7 @@ body {
   width: 100%;
   margin: 0;
   padding: calc(round(down, var(--line-height), 1px)) 2ch;
-  max-width: calc(min(80ch, round(down, 100%, 1ch)));
+  max-width: calc(min(80ch, round(down, 100%, 1ch)) + 1px);
   line-height: calc(round(down, var(--line-height), 1px));
   overflow-x: hidden;
   text-wrap: balance;
