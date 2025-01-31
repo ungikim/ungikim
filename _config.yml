@@ -1,6 +1,0 @@
----
-repository: ungikim/ungikim
-timezone: Asia/Tokyo
-sass:
-    sass_dir: _sass
-    style: compressed
