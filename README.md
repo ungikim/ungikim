@@ -72,7 +72,7 @@ _Seoul, Korea - Alternative military service._
   the [가톨릭대학교 4차 산업혁명 혁신대학 "2021-2차 산업체 전문가 초청 특강"](https://cukai.catholic.ac.kr/front/boardview.do?pkid=32445&currentPage=1&searchField=ALL&searchValue=&searchLowItem=ALL&bbsConfigFK=542&cmsDirPkid=5902&cmsLocalPkid=0)
 * Presented
   on [Simplify Data Processing](https://drive.google.com/file/d/1ciCKdWEePWqYBS01IzNUGudgZ2SL4EcU/view)
-  at [DatayaNolja 2018](https://datayanolja.github.io/2018-datayanolja/index.html)
+  at [DatayaNolja 2018](https://lee-monster.github.io/datayanolja2018/speakers/ungikim.html)
 * Featured in the [LINE Careers "Meet the Global LINERs"](https://careers.linecorp.com/people/48)
 
 ## I speak
