@@ -78,5 +78,5 @@ _Seoul, Korea - Alternative military service._
 ## I speak
 
 - **English**: Professional working proficiency
-- **Japanese**: Conversational proficiency
+- **Japanese**: Professional working proficiency
 - **Korean**: Native proficiency
