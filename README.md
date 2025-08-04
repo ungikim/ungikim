@@ -15,8 +15,8 @@ decision-making in teams.
 
 _Seoul, Korea - Working on the [LINE GAME PLATFORM](https://developers.game.line.me/)._
 
-- Led a team of four software engineers to address and solve common development challenges, preventing redundant
-  efforts across teams.
+- Leading the Admin/Operation product as PM and Tech Lead, collaborating with 5 members.
+- Responsible for product planning, technical direction, and leadership to deliver operational solutions.
 - Ensured compliance with development processes and product management guidelines.
 - Planned and executed server-related tasks for the data center relocation, including development, failure
   resolution, and monitoring.
