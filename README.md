@@ -15,7 +15,7 @@ decision-making in teams.
 
 _Seoul, Korea - Working on the [LINE GAME PLATFORM](https://developers.game.line.me/)._
 
-- Leading the Admin/Operation product, collaborating with 5 members (Plan/Dev).
+- Leading the Admin/Operation product.
 - Responsible for product planning, technical direction, and leadership to deliver operational solutions.
 - Ensured compliance with development processes and product management guidelines.
 - Planned and executed server-related tasks for the data center relocation, including development, failure
