@@ -15,35 +15,29 @@ decision-making in teams.
 
 _Seoul, Korea - Working on the [LINE GAME PLATFORM](https://developers.game.line.me/)._
 
-- Leading the Admin/Operation product.
-- Responsible for product planning, technical direction, and leadership to deliver operational solutions.
-- Ensured compliance with development processes and product management guidelines.
-- Planned and executed server-related tasks for the data center relocation, including development, failure
-  resolution, and monitoring.
-- Managed and monitored compliance with development processes across all products, acting as a representative
-  for procedural changes.
-- Redesigned and optimized core platform capabilities, understanding internal customer needs to maximize feature
-  utilization.
+- Lead Admin/Operation product: product planning, technical direction, and leadership
+- Delivered operational solutions and ensured compliance with development processes
+- Planned and executed server/data center relocation (development, failure resolution, monitoring)
+- Represented and managed procedural changes across all products
+- Redesigned and optimized core platform features for internal customer needs
 
 ### **Software Engineer** at [LINE Corporation](https://linecorp.com/ja/), Feb 2020 - Mar 2022
 
-_Tokyo, Japan - Contributed to the development of the [LINE GAME PLATFORM](https://developers.game.line.me/)._
+_Tokyo, Japan - Working on the [LINE GAME PLATFORM](https://developers.game.line.me/)._
 
-- Designed and improved a token system to support multiple platforms.
-- Enhanced an in-house library for using various storage solutions, providing shared infrastructure across
-  internal projects.
-- Developed a subscription payment system tailored for game developers.
+- Designed/improved token system for multi-platform support
+- Enhanced in-house storage library for shared infrastructure
+- Developed subscription payment system for game developers
 
 ### **Data Engineer** at [Balance Hero](https://truebalance.io), Feb 2017 - Nov 2019
 
 _Seoul, Korea - At an India-based South Korean fintech startup._
 
-- Designed and developed a comprehensive big data pipeline with batch processing.
-- Created a PySpark application for aggregation, simplifying usage for analysts and developers.
-- Designed and developed the [Kinesis Data Stream consumer](https://github.com/ungikim/kinsumer)
-- Developed
-  the [Apache Zeppelin Interpreter for Amazon Athena](https://github.com/ungikim/zeppelin-athena-interpreter)
-- Wrote queries to transform data for further downstream processing.
+- Built big data pipeline (batch processing)
+- Created PySpark aggregation app for analysts/developers
+- Developed [Kinesis Data Stream consumer](https://github.com/ungikim/kinsumer)
+- Built [Zeppelin Athena Interpreter](https://github.com/ungikim/zeppelin-athena-interpreter)
+- Wrote data transformation queries
 
 ### **Software Engineer** at [Balance Hero](https://truebalance.io), May 2016 – Feb 2017
 
@@ -54,7 +48,7 @@ developing [True Balance](https://play.google.com/store/apps/details?id=com.bala
 
 ### **Intern** at [Netmarble Games](https://company.netmarble.com/), Dec 2015 – Feb 2016
 
-_Seoul, Korea - Completed an internship as part of the Netmarble recruitment 2016._
+_Seoul, Korea - Internship as part of Netmarble recruitment 2016._
 
 ### **Software Engineer** at [Saerom C&C](http://www.saeromcnc.com/), April 2010 – Feb 2013
 
