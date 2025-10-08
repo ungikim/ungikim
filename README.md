@@ -1,8 +1,6 @@
 # Ungi Kim / Software Engineer
 <ungi@ungikim.me> · [github.com/ungikim](https://github.com/ungikim) · Seoul, Korea
 
----
-
 ## Interest
 
 To create impactful products that bridge technology and user experience, while fostering data-driven
