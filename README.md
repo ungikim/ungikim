@@ -29,8 +29,8 @@ _Feb 2017 – Nov 2019, Seoul, Korea_
 
 - Built big data pipeline (batch processing)
 - Developed PySpark aggregation app for analysts/developers
-- Created [Kinesis Data Stream consumer](https://github.com/ungikim/kinsumer)
-- Built [Zeppelin Athena Interpreter](https://github.com/ungikim/zeppelin-athena-interpreter)
+- Created Kinesis Data Stream consumer
+- Built Zeppelin Athena Interpreter
 - Wrote data transformation queries
 
 ### **Balance Hero** — Software Engineer  
