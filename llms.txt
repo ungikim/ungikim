@@ -1,0 +1,99 @@
+# Hi there, I'm Ungi Kim 👋
+
+📧 [ungi@ungikim.me](mailto:ungi@ungikim.me) · [github.com/ungikim](https://github.com/ungikim) · Seoul, Korea
+
+## 🎯 Interest
+
+Building scalable backend systems, optimizing Big Data pipelines, and improving developer experience in global
+platforms
+
+## 💼 Experience
+
+### **LINE Plus Corporation** — Senior Software Engineer
+
+_Mar 2022 – Present, Seoul, Korea_
+
+Led Admin/Operation product development and improvements for global platform services
+
+**Key Impact:**
+
+- Product planning, technical direction, and team leadership for Admin/Operating systems
+- Executed server/data center relocation with comprehensive development, monitoring, and failure resolution
+- Managed procedural changes and compliance across all products
+- Redesigned core platform features improving internal customer experience
+
+**Tech:** Backend infrastructure, operational tooling
+
+### **LINE Corporation** — Software Engineer
+
+_Feb 2020 – Mar 2022, Tokyo, Japan_
+
+Built scalable authentication and payment systems for global platform services
+
+**Key Impact:**
+
+- Designed multi-platform token system improving authentication reliability
+- Enhanced shared storage library serving infrastructure-wide usage
+- Delivered subscription payment system enabling revenue streams for game developers
+
+**Tech:** Authentication systems, storage libraries, payment integration
+
+### **Balance Hero** — Data Engineer
+
+_Feb 2017 – Nov 2019, Seoul, Korea_
+
+Built and optimized big data pipeline infrastructure processing millions of daily financial transactions
+
+**Key Impact:**
+
+- Designed and scaled batch processing pipeline handling 10M+ user financial data
+- Created self-service PySpark aggregation framework improving analyst productivity by 70%
+- Developed custom Athena interpreter for Zeppelin enabling interactive data exploration
+
+**Tech:** PySpark, AWS Kinesis, Apache Zeppelin, AWS Athena, ETL pipelines, big data processing
+
+### **Balance Hero** — Software Engineer
+
+_May 2016 – Feb 2017, Seoul, Korea_
+
+Built scalable backend services
+for [True Balance](https://play.google.com/store/apps/details?id=com.balancehero.truebalance), a fintech app
+serving millions of users
+
+**Key Impact:**
+
+- Designed and implemented event-driven promotion engine handling high-volume user campaigns
+- Built user management microservice supporting millions of concurrent fintech users
+- Architected scalable backend infrastructure for real-time financial data processing
+
+**Tech:** Event-driven architecture, microservices, backend systems, fintech platforms
+
+### **Netmarble Games** — Intern
+
+_Dec 2015 – Feb 2016, Seoul, Korea_
+
+### **Saerom C&C** — Software Engineer
+
+_Apr 2010 – Feb 2013, Seoul, Korea_
+
+Developed e-commerce platforms for major Korean retail websites
+
+**Key Impact:** Built and maintained [GEOPASS](https://www.geopass.com/)
+and [eBay Auction](https://ebay.auction.co.kr/) e-commerce systems
+
+**Tech:** E-commerce platforms, web development
+
+## 💬 Talks & Activities
+
+- "Data Engineering 101" @ Kodeveloper Struggle #39, CUK
+  특강 ([materials](https://drive.google.com/file/d/1ICjYNSf5CgyYPujsyUqtIpHCaZ2gR6S6/view))
+- "Simplify Data Processing" @ DatayaNolja
+  2018 ([materials](https://drive.google.com/file/d/1ciCKdWEePWqYBS01IzNUGudgZ2SL4EcU/view))
+- Featured in [LINE Careers "Meet the Global LINERs"](https://careers.linecorp.com/people/48)
+
+## 🌐 Languages
+
+- Korean (Native)
+- English (Professional)
+- Japanese (Professional)
+
