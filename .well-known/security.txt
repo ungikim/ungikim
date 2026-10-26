@@ -1,0 +1,4 @@
+Contact: mailto:ungi@ungikim.me
+Expires: 2027-10-26T05:15:45.060Z
+Preferred-Languages: en, ko, ja
+Canonical: https://ungikim.me/.well-known/security.txt

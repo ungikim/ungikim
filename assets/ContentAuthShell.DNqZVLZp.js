@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime.Cr1s1OSH.js";import{t}from"./AuthShell.u5uqPSTM.js";var n=e();function r({authRequired:e,children:r,returnTo:i,title:a}){return(0,n.jsx)(t,{authRequired:e,returnTo:i,serviceName:a,children:r})}export{r as default};
